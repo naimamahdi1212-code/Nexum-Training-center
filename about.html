@@ -3,234 +3,215 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Us | Nexum Training Center</title>
-<meta name="description" content="Learn about Nexum Training Center's story, mission, vision, core values, and the trainers behind our ICT, web development, accounting, design and language programs.">
-<meta name="keywords" content="about Nexum Training Center, ICT trainers, training institution mission vision, computer training school">
-<meta name="author" content="Nexum Training Center">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.nexumtraining.example/about.html">
-<meta property="og:type" content="website">
-<meta property="og:title" content="About Nexum Training Center">
-<meta property="og:description" content="The story, mission and trainers behind Nexum Training Center.">
-<meta property="og:url" content="https://www.nexumtraining.example/about.html">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230B2545'/%3E%3Ctext x='50' y='68' font-size='58' font-family='monospace' fill='%23F5821F' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+<title>About Us — Nexum Training Center</title>
+<meta name="description" content="Learn about Nexum Training Center's story, mission, trainers and growth since founding in Upper Hill, Nairobi.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="navbar">
+<nav class="site-nav">
   <div class="nav-inner">
-    <a href="index.html" class="logo"><span class="logo-mark">N<span>x</span></span> Nexum Training Center</a>
-    <nav class="nav-links" id="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="courses.html">Courses</a>
-      <a href="contact.html">Contact</a>
-      <div class="nav-cta" style="margin-top:16px;">
-        <a href="courses.html" class="btn btn-ghost">View Courses</a>
-        <a href="contact.html" class="btn btn-primary">Contact Us</a>
-      </div>
-    </nav>
+    <a href="index.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="8" cy="9" r="3.5" fill="#1B3A6B"/>
+        <circle cx="26" cy="9" r="3.5" fill="#F2762E"/>
+        <circle cx="17" cy="25" r="3.5" fill="#1B3A6B"/>
+        <line x1="8" y1="9" x2="26" y2="9" stroke="#E1E7F0" stroke-width="2"/>
+        <line x1="8" y1="9" x2="17" y2="25" stroke="#E1E7F0" stroke-width="2"/>
+        <line x1="26" y1="9" x2="17" y2="25" stroke="#E1E7F0" stroke-width="2"/>
+      </svg>
+      Nexum
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
     <div class="nav-cta">
-      <a href="courses.html" class="btn btn-ghost">View Courses</a>
-      <a href="contact.html" class="btn btn-navy">Contact Us</a>
+      <a href="contact.html" class="btn btn-outline-navy btn-sm">Contact Us</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+  </div>
+</nav>
+
+<header class="hero-banner">
+  <svg class="node-field" viewBox="0 0 800 300" preserveAspectRatio="none" aria-hidden="true">
+    <line x1="60" y1="40" x2="240" y2="120"/>
+    <line x1="240" y1="120" x2="440" y2="60"/>
+    <line x1="440" y1="60" x2="620" y2="140"/>
+    <line x1="620" y1="140" x2="740" y2="50"/>
+    <circle cx="60" cy="40" r="4"/><circle cx="240" cy="120" r="5"/><circle cx="440" cy="60" r="4"/><circle cx="620" cy="140" r="4"/><circle cx="740" cy="50" r="4"/>
+  </svg>
+  <div class="container" style="position:relative;z-index:1;">
+    <p class="breadcrumb">About Nexum</p>
+    <h1>Built by trainers who still teach</h1>
+    <p>We started as a single classroom in Upper Hill with one mission — make practical tech, business and language skills reachable for anyone willing to show up and put in the work.</p>
   </div>
 </header>
 
-<!-- ================= PAGE HERO ================= -->
-<section class="hero page-hero">
-  <div class="hero-shapes"><div class="blob blob1"></div><div class="blob blob2"></div></div>
-  <div class="container" style="position:relative;z-index:2;">
-    <div class="breadcrumb"><a href="index.html">Home</a> / About</div>
-    <h1>Built by trainers who still practice what they teach</h1>
-    <p>Nexum Training Center has spent years turning beginners into hireable, confident professionals across ICT, design, accounting and language.</p>
-  </div>
-</section>
-
-<!-- ================= OUR STORY ================= -->
-<section>
-  <div class="container story-grid">
-    <div class="reveal">
-      <span class="eyebrow">Our Story</span>
-      <h2>From one computer lab to a full training center</h2>
-      <p>Nexum Training Center began as a small computer lab helping local students pass their ICT proficiency exams. As demand grew, so did our curriculum — expanding into web development, accounting software, graphic design and language classes for professionals who needed practical, job-ready skills fast.</p>
-      <p>Today, Nexum is a multi-disciplinary training center known for small class sizes, trainers who work in the industry they teach, and a hands-on approach that treats every learner as a future professional, not just a student.</p>
-      <div class="key-row">
-        <span class="key key-accent">practical</span>
-        <span class="key">project-based</span>
-        <span class="key">career-focused</span>
-      </div>
-    </div>
-    <div class="story-art reveal-scale">
-      <div class="key-row r1"><span class="key">HTML</span><span class="key">CSS</span></div>
-      <div class="story-badge">
-        <div class="big">1500+</div>
-        <div class="small">Graduates Since Founding</div>
-      </div>
-      <div class="key-row r2"><span class="key">Sage</span><span class="key key-accent">AI</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= MISSION / VISION / VALUES ================= -->
-<section class="bg-soft">
+<section aria-labelledby="story-heading">
   <div class="container">
-    <div class="section-head center">
-      <span class="eyebrow">What Drives Us</span>
-      <h2>Mission, Vision &amp; Core Values</h2>
-    </div>
-    <div class="mvv-grid">
-      <div class="mvv-card reveal" style="background:var(--white);">
-        <div class="mvv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg></div>
-        <h3>Our Mission</h3>
-        <p>To equip students and professionals with practical ICT, business and language skills that translate directly into employment and entrepreneurship.</p>
+    <div class="story-grid">
+      <div class="reveal">
+        <p class="eyebrow">Our story</p>
+        <h2 id="story-heading">From one classroom to a full campus</h2>
+        <p>Nexum Training Center opened its doors in Upper Hill, Nairobi, with a handful of desktop computers and a conviction that skills training should be judged by what students can build, not just what they can recite.</p>
+        <p>Since then we've expanded from computer packages into web development, accounting, graphics and language instruction — always keeping class sizes small enough that no student is just a name on a register.</p>
       </div>
-      <div class="mvv-card reveal" style="background:var(--white);">
-        <div class="mvv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z"/></svg></div>
-        <h3>Our Vision</h3>
-        <p>To be the leading training center in the region for accessible, technology-forward and career-ready education.</p>
-      </div>
-      <div class="mvv-card values reveal" style="background:var(--white);">
-        <div class="mvv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></svg></div>
-        <h3>Core Values</h3>
-        <ul>
-          <li>Practical, hands-on learning</li>
-          <li>Integrity &amp; professionalism</li>
-          <li>Continuous improvement</li>
-          <li>Accessibility for all learners</li>
-        </ul>
+      <div class="reveal">
+        <svg viewBox="0 0 400 320" width="100%" aria-hidden="true">
+          <rect x="0" y="0" width="400" height="320" rx="20" fill="#F6F8FC"/>
+          <line x1="70" y1="80" x2="200" y2="160" stroke="#E1E7F0" stroke-width="2"/>
+          <line x1="200" y1="160" x2="330" y2="90" stroke="#E1E7F0" stroke-width="2"/>
+          <line x1="200" y1="160" x2="150" y2="250" stroke="#E1E7F0" stroke-width="2"/>
+          <line x1="200" y1="160" x2="280" y2="240" stroke="#E1E7F0" stroke-width="2"/>
+          <circle cx="70" cy="80" r="10" fill="#2E5CA6"/>
+          <circle cx="330" cy="90" r="10" fill="#F2762E"/>
+          <circle cx="150" cy="250" r="10" fill="#F2762E"/>
+          <circle cx="280" cy="240" r="10" fill="#2E5CA6"/>
+          <circle cx="200" cy="160" r="16" fill="#10213D"/>
+        </svg>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= TRAINERS ================= -->
-<section>
+<section class="bg-offwhite" aria-labelledby="mvv-heading">
   <div class="container">
-    <div class="section-head center">
-      <span class="eyebrow">Meet Our Trainers</span>
-      <h2>Instructors who work in the field they teach</h2>
+    <div class="section-head reveal">
+      <p class="eyebrow">What drives us</p>
+      <h2 id="mvv-heading">Mission, vision and values</h2>
     </div>
-    <div class="trainers-grid">
+    <div class="grid grid-3">
+      <div class="pillar-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg></div>
+        <h3>Mission</h3>
+        <p>To equip students and working professionals with practical ICT, business and language skills they can use from day one.</p>
+      </div>
+      <div class="pillar-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3>Vision</h3>
+        <p>To be Nairobi's most trusted training center for career-ready technology and business skills.</p>
+      </div>
+      <div class="pillar-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.5-9.5-9C1 8 3 4 7 4c2 0 4 1.5 5 3 1-1.5 3-3 5-3 4 0 6 4 4.5 8-2.5 4.5-9.5 9-9.5 9z"/></svg></div>
+        <h3>Core values</h3>
+        <p>Practicality, patience with beginners, honesty about job-market realities, and pride in student outcomes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="trainers-heading">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Meet our trainers</p>
+      <h2 id="trainers-heading">The people behind the whiteboard</h2>
+    </div>
+    <div class="grid grid-3">
       <div class="trainer-card reveal">
-        <div class="trainer-photo">Photo Placeholder</div>
-        <div class="trainer-body">
-          <h3>James Otieno</h3>
-          <span class="trainer-role">Lead Web Development Trainer</span>
-          <p>10+ years building web apps; specializes in AI-assisted development workflows.</p>
+        <div class="trainer-photo">Photo placeholder</div>
+        <div class="trainer-info">
+          <h4>Lead Web Development Trainer</h4>
+          <p class="role">Web Development with AI</p>
+          <p style="font-size:0.88rem;">Guides students from first HTML tag to a deployed, live portfolio site.</p>
         </div>
       </div>
       <div class="trainer-card reveal">
-        <div class="trainer-photo">Photo Placeholder</div>
-        <div class="trainer-body">
-          <h3>Grace Wambui</h3>
-          <span class="trainer-role">Accounting &amp; Payroll Trainer</span>
-          <p>Certified accountant with hands-on QuickBooks and Sage implementation experience.</p>
+        <div class="trainer-photo">Photo placeholder</div>
+        <div class="trainer-info">
+          <h4>Lead Accounting Trainer</h4>
+          <p class="role">Accounting Packages</p>
+          <p style="font-size:0.88rem;">Brings real payroll and bookkeeping scenarios into every lesson.</p>
         </div>
       </div>
       <div class="trainer-card reveal">
-        <div class="trainer-photo">Photo Placeholder</div>
-        <div class="trainer-body">
-          <h3>Samuel Kiptoo</h3>
-          <span class="trainer-role">Graphics &amp; Design Trainer</span>
-          <p>Freelance designer teaching Photoshop, Illustrator, Canva and CorelDRAW.</p>
-        </div>
-      </div>
-      <div class="trainer-card reveal">
-        <div class="trainer-photo">Photo Placeholder</div>
-        <div class="trainer-body">
-          <h3>Halima Yusuf</h3>
-          <span class="trainer-role">Languages Trainer</span>
-          <p>Multilingual educator teaching English, Swahili and Arabic communication skills.</p>
+        <div class="trainer-photo">Photo placeholder</div>
+        <div class="trainer-info">
+          <h4>Lead Design Trainer</h4>
+          <p class="role">Graphics &amp; Design</p>
+          <p style="font-size:0.88rem;">Pushes students to build a client-ready design portfolio by graduation.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= TIMELINE ================= -->
-<section class="bg-soft">
+<section class="bg-offwhite" aria-labelledby="timeline-heading">
   <div class="container">
-    <div class="section-head center">
-      <span class="eyebrow">Our Growth</span>
-      <h2>Milestones along the way</h2>
+    <div class="section-head reveal">
+      <p class="eyebrow">Our growth</p>
+      <h2 id="timeline-heading">How we got here</h2>
     </div>
     <div class="timeline">
       <div class="timeline-item reveal">
-        <div class="timeline-dot">01</div>
-        <span class="timeline-year">Year 1</span>
-        <h3>Founded as a computer lab</h3>
-        <p>Started with basic computer packages training for local students preparing for ICT exams.</p>
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">Year One</div>
+        <h4>Founded in Upper Hill</h4>
+        <p>Opened with a single computer lab offering Computer Packages classes to walk-in students.</p>
       </div>
       <div class="timeline-item reveal">
-        <div class="timeline-dot">02</div>
-        <span class="timeline-year">Year 2</span>
-        <h3>Added accounting &amp; design programs</h3>
-        <p>Introduced QuickBooks, Sage and graphic design courses in response to student demand.</p>
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">Year Two</div>
+        <h4>Added Accounting and Graphics &amp; Design</h4>
+        <p>Grew the trainer team and introduced QuickBooks, Sage and Photoshop instruction.</p>
       </div>
       <div class="timeline-item reveal">
-        <div class="timeline-dot">03</div>
-        <span class="timeline-year">Year 4</span>
-        <h3>Launched Web Development with AI</h3>
-        <p>Modernized our tech curriculum to include Git, GitHub and AI-assisted coding tools.</p>
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">Year Three</div>
+        <h4>Launched Web Development with AI</h4>
+        <p>Introduced a curriculum pairing HTML/CSS/JavaScript fundamentals with modern AI coding tools.</p>
       </div>
       <div class="timeline-item reveal">
-        <div class="timeline-dot">05</div>
-        <span class="timeline-year">Today</span>
-        <h3>1,500+ graduates and growing</h3>
-        <p>Now a full multi-disciplinary training center with 20+ trainers and 15 active courses.</p>
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">Today</div>
+        <h4>1,500+ students trained</h4>
+        <p>Five active programs and a growing network of trainers, partner employers and alumni.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= WHY CHOOSE NEXUM ================= -->
-<section>
+<section aria-labelledby="why-heading">
   <div class="container">
-    <div class="section-head center">
-      <span class="eyebrow">Why Choose Nexum</span>
-      <h2>Everything you need to learn a skill and use it</h2>
+    <div class="section-head reveal">
+      <p class="eyebrow">Why choose Nexum</p>
+      <h2 id="why-heading">What makes our classroom different</h2>
     </div>
-    <div class="advantages-grid">
-      <div class="advantage reveal">
-        <div class="adv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/></svg></div>
-        <h3>Modern Curriculum</h3>
-        <p>Courses updated regularly to match real industry tools and demands.</p>
+    <div class="grid grid-3">
+      <div class="feature-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20l-8-4V8l8-4 8 4v8z"/></svg></div>
+        <h3>Beginner-friendly pace</h3>
+        <p>No prior experience assumed — every course starts from first principles.</p>
       </div>
-      <div class="advantage reveal">
-        <div class="adv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M10 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div>
-        <h3>Small Class Sizes</h3>
-        <p>More one-on-one time with trainers, less time waiting in line for help.</p>
+      <div class="feature-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v12H4zM8 20h8"/></svg></div>
+        <h3>Real equipment, real software</h3>
+        <p>Hands-on time on the same tools used in the industry, not simulations.</p>
       </div>
-      <div class="advantage reveal">
-        <div class="adv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></div>
-        <h3>Job-Ready Certificates</h3>
-        <p>Certification that signals real, demonstrable skill to employers.</p>
-      </div>
-      <div class="advantage reveal">
-        <div class="adv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2z"/></svg></div>
-        <h3>Flexible Timing</h3>
-        <p>Weekday, evening and weekend classes built around your schedule.</p>
+      <div class="feature-card reveal">
+        <div class="feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></div>
+        <h3>Flexible schedules</h3>
+        <p>Morning, afternoon and weekend classes for working professionals.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ================= CTA ================= -->
-<section>
+<section class="bg-offwhite">
   <div class="container">
-    <div class="cta-band reveal-scale">
-      <h2>Your next skill starts with one enrollment</h2>
-      <p>Join Nexum Training Center and learn from instructors who work in the industry they teach.</p>
-      <div class="btn-row">
-        <a href="courses.html" class="btn btn-primary">Register Now</a>
-        <a href="contact.html" class="btn btn-outline">Ask a Question</a>
+    <div class="cta-band reveal">
+      <h2>Ready to start your next course?</h2>
+      <p>Talk to our team about which program fits your goals and schedule.</p>
+      <div class="hero-actions" style="justify-content:center;">
+        <a href="contact.html" class="btn btn-primary">Register Now</a>
+        <a href="courses.html" class="btn btn-ghost">Browse Courses</a>
       </div>
     </div>
   </div>
@@ -239,55 +220,52 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="logo"><span class="logo-mark">N<span>x</span></span> Nexum Training Center</a>
-        <p>Practical ICT, web development, accounting, design and language training for students and working professionals.</p>
+      <div class="footer-col">
+        <div class="footer-logo">
+          <svg width="30" height="30" viewBox="0 0 34 34" fill="none"><circle cx="8" cy="9" r="3.5" fill="#F2762E"/><circle cx="26" cy="9" r="3.5" fill="#2E5CA6"/><circle cx="17" cy="25" r="3.5" fill="#F2762E"/><line x1="8" y1="9" x2="26" y2="9" stroke="rgba(255,255,255,0.3)" stroke-width="2"/><line x1="8" y1="9" x2="17" y2="25" stroke="rgba(255,255,255,0.3)" stroke-width="2"/><line x1="26" y1="9" x2="17" y2="25" stroke="rgba(255,255,255,0.3)" stroke-width="2"/></svg>
+          Nexum
+        </div>
+        <p style="font-size:0.9rem;color:rgba(255,255,255,0.55);max-width:32ch;">Practical ICT and language training for students and professionals in Nairobi.</p>
         <div class="social-row">
-          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-9h3l1-4h-4V7c0-1 .3-1.7 1.8-1.7H17V2c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5V9H7v4h3v9z"/></svg></a>
-          <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.9c-.7.3-1.5.5-2.3.6.8-.5 1.4-1.3 1.7-2.3-.8.5-1.7.8-2.6 1a4 4 0 0 0-6.9 3.7A11.5 11.5 0 0 1 3.4 4.6a4 4 0 0 0 1.3 5.4c-.6 0-1.2-.2-1.7-.5v.1c0 2 1.4 3.6 3.3 4-.4.1-.8.1-1.2.1-.3 0-.6 0-.8-.1a4 4 0 0 0 3.8 2.8A8.1 8.1 0 0 1 2 18.4a11.4 11.4 0 0 0 6.2 1.8c7.4 0 11.5-6.2 11.5-11.5v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg></a>
-          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
-          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.6v1.7h.05c.5-1 1.8-2 3.6-2 3.9 0 4.6 2.5 4.6 5.8V21H17v-5.7c0-1.4 0-3.1-1.9-3.1s-2.2 1.5-2.2 3v5.8H9z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M13 22v-9h3l1-4h-4V7c0-1 .5-2 2-2h2V1h-3c-3 0-4.5 2-4.5 5v3H7v4h3v9z"/></svg></a>
+          <a href="#" aria-label="Twitter / X"><svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M3 3l7.5 9.5L3 21h2.6l6-6.7 4.6 6.7H21l-7.9-10L20.6 3H18l-5.5 6.2L8.4 3z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
         </div>
       </div>
-      <div>
+      <div class="footer-col">
         <h4>Quick Links</h4>
-        <ul class="footer-links">
+        <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="courses.html">Courses</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
-      <div>
+      <div class="footer-col">
         <h4>Courses</h4>
-        <ul class="footer-links">
-          <li><a href="courses.html#computer-packages">Computer Packages</a></li>
-          <li><a href="courses.html#web-development">Web Development with AI</a></li>
-          <li><a href="courses.html#accounting">Accounting Packages</a></li>
-          <li><a href="courses.html#graphics-design">Graphics &amp; Design</a></li>
-          <li><a href="courses.html#languages">Languages</a></li>
+        <ul>
+          <li><a href="courses.html">Computer Packages</a></li>
+          <li><a href="courses.html">Web Development with AI</a></li>
+          <li><a href="courses.html">Accounting Packages</a></li>
+          <li><a href="courses.html">Graphics &amp; Design</a></li>
         </ul>
       </div>
-      <div>
-        <h4>Get in Touch</h4>
-        <ul class="footer-contact">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2z"/></svg> +254 700 000 000</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 4l8 9 8-9"/></svg> info@nexumtraining.example</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg> Nairobi, Kenya</li>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Upper Hill, Nairobi</li>
+          <li>+254 700 000 000</li>
+          <li>info@nexumtraining.co.ke</li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; <span data-year></span> Nexum Training Center. All rights reserved.</p>
-      <p><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms of Service</a></p>
+      <span>&copy; 2026 Nexum Training Center. All rights reserved.</span>
+      <span>Built with Nexum's own Web Development curriculum.</span>
     </div>
   </div>
 </footer>
 
-<button class="to-top" aria-label="Back to top">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-</button>
-
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
